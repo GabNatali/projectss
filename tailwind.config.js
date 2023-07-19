@@ -34,11 +34,15 @@ module.exports = {
         print: {'raw': 'print'},
         sm   : '600px',
         md   : '960px',
-        lg   : '1280px',
+        lg   : '1024px',
         xl   : '1440px'
     },
-    extend: {},
+    extend: {
+      width: {
+        '377': '23.563rem',
+        '250':'15.625rem',
+    },
   },
   plugins: [],
+  }
 }
-

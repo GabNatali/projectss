@@ -1,46 +1,51 @@
-<div class="flex flex-col gap-y-6 pl-2">
-  <div class="flex pt-3 gap-4 ">
-    <div class="flex flex-col lg:flex-row items-center justify-center lg:gap-x-5 px-2 lg:px-4 lg:py-2  bg-seasalt border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-      <h5 class="text-4xl md:text-4xl lg:text-6xl font-bold text-blue">23</h5>
-      <h5 class="text-xs text-center md:text-ms lg:text-sm lg:text-left font-bold tracking-tight text-gray w-min dark:text-white uppercase ">predios assignados pendientes</h5>
+<div class="flex flex-col">
+  <div class="flex pt-3 gap-4 px-4 py-3">
+    <div class="card shadow-md">
+      <span class="number">23</span>
+      <span class="title">PREDIOS ASIGNADOS PENDIENTES</span>
     </div>
-    <div class="w-24 md:w-24 lg:w-40 flex flex-col lg:flex-row items-center justify-center gap-x-2 md:gap-x-2 lg:gap-x-5 px-2 lg:px-4 lg:py-2  bg-seasalt border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-      <h5 class="text-4xl md:text-4xl lg:text-5xl font-bold text-blue">23</h5>
-      <h5 class="text-xs text-center md:text-xs lg:text-sm lg:text-left font-bold tracking-tight text-gray dark:text-white uppercase ">PUNTOS LOTES ASIGNADOS PENDIENTE</h5>
+    <div class="card shadow-md">
+      <span class="number">23</span>
+      <span class="title">PUNTOS LOTES ASIGNADOS PENDIENTE</span>
     </div>
-    <div class="flex flex-col lg:flex-row items-center justify-center gap-x-2 md:gap-x-2 lg:gap-x-5 px-2 lg:px-4 lg:py-2  bg-seasalt border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-      <h5 class="text-4xl md:text-4xl lg:text-5xl font-bold text-blue">23</h5>
-      <h5 class="text-xs text-center md:text-xs lg:text-sm lg:text-left font-bold tracking-tight text-gray w-min dark:text-white uppercase ">MANZANA ASIGNADAS PENDIENTEs</h5>
+
+    <div class="card shadow-md">
+      <span class="number">23</span>
+      <span class="title">MANZANA ASIGNADAS PENDIENTE</span>
     </div>
-    <div class="flex flex-col lg:flex-row items-center justify-center gap-x-2 md:gap-x-2 lg:gap-x-5 px-2 lg:px-4 lg:py-2  bg-seasalt border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-      <h5 class="text-4xl md:text-4xl lg:text-5xl font-bold text-blue">23</h5>
-      <h5 class="text-xs text-center md:text-xs lg:text-sm lg:text-left font-bold tracking-tight text-gray w-min dark:text-white uppercase ">MANZANAS VERIFICABLES EN CAMPO</h5>
+
+    <div class="card shadow-md">
+      <span class="number">23</span>
+      <span class="title">MANZANAS VERIFICABLES EN CAMPO</span>
     </div>
-    <div class="flex flex-col lg:flex-row items-center justify-center gap-x-2 md:gap-x-2 lg:gap-x-5 px-2 lg:px-4 lg:py-2  bg-seasalt border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-      <h5 class="text-4xl md:text-4xl lg:text-5xl font-bold text-blue">23</h5>
-      <h5 class="text-xs text-center md:text-xs lg:text-sm lg:text-left font-bold tracking-tight text-gray w-min dark:text-white uppercase ">MANZANAS (EXPANSION URBANA)</h5>
+
+    <div class="card shadow-md">
+      <span class="number">23</span>
+      <span class="title">MANZANAS (EXPANSION URBANA)</span>
     </div>
-    <div class="flex flex-col lg:flex-row items-center justify-center gap-x-2 md:gap-x-2 lg:gap-x-5 px-2 lg:px-4 lg:py-2  bg-seasalt border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
-      <h5 class="text-4xl md:text-4xl lg:text-5xl font-bold text-blue">23</h5>
-      <h5 class="text-xs text-center md:text-xs lg:text-sm lg:text-left font-bold tracking-tight text-gray w-min dark:text-white uppercase ">OPERADORES DE CAMPO</h5>
+
+    <div class="card shadow-md">
+      <span class="number">23</span>
+      <span class="title">OPERADORES DE CAMPO</span>
     </div>
   </div>
 
-  <div class="flex gap-x-3">
-    <div class="w-1/3">
-      <div class="flex flex-col lg:flex-row gap-2 lg:gap-x-5 justify-between">
-        <h2 class="font-semibold text-black text-lg lg:text-3xl">Asignacion de carga</h2>
-        <div class="bg-green rounded-lg text-white flex justify-center items-center py-1 gap-1 px-2">
-          <span class="material-symbols-outlined">
+  <div class="flex gap-x-3 px-4">
+    <div class="w-250 lg:w-377 py-3">
+      <div class="flex flex-col lg:flex-row gap-2 lg:gap-x-5 justify-betwee">
+        <span class="title-primary">Asignacion de carga</span>
+        <!-- esto va cambiar con material  -->
+        <div class="bg-green rounded-lg text-white flex justify-center items-center py-0 gap-1 gap-x-2 px-3">
+          <span class="material-symbols-outlined w-4">
             add
           </span>
-          <button class="text-xs lg:text-lg" >Nueva carga
+          <button class="text-xs lg:text-base" >Nueva carga
           </button>
         </div>
       </div>
 
-      <h6 class="text-black mt-2">Buscar por:</h6>
-      <div class="flex border border-gary-100 p-2 rounded-lg my-2">
+      <span class="text-black mt-3 text-base">Buscar por:</span>
+      <div class="flex border border-gary-100 p-2 rounded-lg my-2 border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 text-base">
         <input class="w-full" placeholder="Cod. carga y/o Urbanización">
         <span class="material-symbols-outlined">
           search
@@ -58,5 +63,3 @@
     </div>
   </div>
 </div>
-
-
